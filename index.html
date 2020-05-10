@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ruluko&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./helpers.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="app flex column  ">
+        <h1 class=" title text-center">Weather</h1>
+        <div class="search-section flex justify-center ">
+            <input  placeholder="Enter a City/Country" type="text">
+            <button onclick="query()">Search</button>
+        </div>
+            <div class="weather-display-section flex space-around ">
+                <div class=" section left-section flex column space-around">
+                    <h3>Temperature</h3>
+                    <h3>Wind</h3>
+                    <h3>Location</h3>
+                </div>
+                <div class=" section right-section flex column space-around">
+                  
+                </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
